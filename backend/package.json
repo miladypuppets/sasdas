@@ -1,0 +1,30 @@
+{
+  "name": "nft-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+,
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "bs58": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "express": "^4.21.1",
+    "form-data": "^4.0.1",
+    "formidable": "^3.5.2",
+    "keccak256": "^1.0.6",
+    "merkletreejs": "^0.4.0",
+    "multer": "^1.4.5-lts.1",
+    "multiparty": "^4.2.3",
+    "umi": "^4.3.35",
+    "web3.storage": "^4.5.5"
+  }
+}
